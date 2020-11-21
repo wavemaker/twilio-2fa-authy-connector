@@ -1,0 +1,4 @@
+version: "1.0"
+name: "twilio-2fa-authy-connector"
+description: "A simple connector twilio-2fa-authy-connector that can be used in WaveMaker application"
+springConfigurationClass: "com.wavemaker.connector.twilio.authy.configuration.Twilio2faAuthyConnectorConfiguration"

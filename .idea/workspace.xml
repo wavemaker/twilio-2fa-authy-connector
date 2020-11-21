@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d40281e-8de0-4314-a847-9db039716cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-api/src/main/java/com/wavemaker/connector/twilio/authy/Twilio2faAuthyConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-api/src/main/java/com/wavemaker/connector/twilio/authy/exception/AuthyRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-api/src/main/resources/connector-metadata.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/java/com/wavemaker/connector/twilio/authy/Twilio2faAuthyConnectorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/java/com/wavemaker/connector/twilio/authy/configuration/Twilio2faAuthyConnectorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/java/com/wavemaker/connector/twilio/authy/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/java/com/wavemaker/connector/twilio/authy/service/TwilioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/resources/connector-externalizable.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/resources/connector-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/test/java/com/wavemaker/connector/twilio/authy/Twilio2faAuthyConnectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/test/java/com/wavemaker/connector/twilio/authy/Twilio2faAuthyConnectorTestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/test/resources/connector-externalizable.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/test/resources/connector-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twilio-2fa-authy-connector-packaging/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kVzFHqOgIcTP7Z8WzvUlwMppLw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/fis/mbp/sso" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wavemaker.connector.twilio.authy.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/twilio-2fa-authy-connector-impl/src/main/java/com/wavemaker/connector/twilio/authy" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Twilio2faAuthyConnectorTest.sendSMSOTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twilio-2fa-authy-connector-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wavemaker.connector.twilio.authy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wavemaker.connector.twilio.authy" />
+      <option name="MAIN_CLASS_NAME" value="com.wavemaker.connector.twilio.authy.Twilio2faAuthyConnectorTest" />
+      <option name="METHOD_NAME" value="sendSMSOTP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Twilio2faAuthyConnectorTest.sendSMSOTP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d40281e-8de0-4314-a847-9db039716cc2" name="Default Changelist" comment="" />
+      <created>1605800442306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605800442306</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="780" y="297" key="FileChooserDialogImpl" timestamp="1605846677727">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="780" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1605846677727" />
+    <state width="1809" height="280" key="GridCell.Tab.0.bottom" timestamp="1605976515307">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="280" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1605976515307" />
+    <state width="1809" height="280" key="GridCell.Tab.0.center" timestamp="1605976515307">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="280" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1605976515307" />
+    <state width="1809" height="280" key="GridCell.Tab.0.left" timestamp="1605976515306">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="280" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1605976515306" />
+    <state width="1809" height="280" key="GridCell.Tab.0.right" timestamp="1605976515307">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1809" height="280" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1605976515307" />
+  </component>
+</project>
