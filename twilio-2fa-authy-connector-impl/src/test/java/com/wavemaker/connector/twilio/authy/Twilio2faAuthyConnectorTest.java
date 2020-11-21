@@ -19,44 +19,44 @@ public class Twilio2faAuthyConnectorTest {
 
     @Test
     public void registerUser(){
-        int authyId = twilio2faConnector.registerUser("sunil.pulugula@wavemaker.com", "9642723789", "+91");
+        int authyId = twilio2faConnector.registerUser("abc@wavemaker.com", "9876543123", "+91");
         Assert.assertFalse("authyId should not be null", authyId==0);
     }
 
     @Test
     public void sendSMSOTP(){
-        int authyId = twilio2faConnector.registerUser("sunil.pulugula@wavemaker.com", "9642723789", "+91");
+        int authyId = twilio2faConnector.registerUser("abc@wavemaker.com", "9876543123", "+91");
         System.out.println("Authy Id " + authyId);
         twilio2faConnector.sendSMSToken(authyId);
     }
 
     @Test
     public void verifySMSOTP(){
-        int authyId = twilio2faConnector.registerUser("sunil.pulugula@wavemaker.com", "9642723789", "+91");
+        int authyId = twilio2faConnector.registerUser("abc@wavemaker.com", "9876543123", "+91");
         System.out.println("Authy Id " + authyId);
         twilio2faConnector.verifyOTP(authyId,"1572813");
     }
 
     @Test
     public void verifyVoiceOTP(){
-        int authyId = twilio2faConnector.registerUser("sunil.pulugula@wavemaker.com", "9642723789", "+91");
+        int authyId = twilio2faConnector.registerUser("abc@wavemaker.com", "9876543123", "+91");
         System.out.println("Authy Id " + authyId);
         twilio2faConnector.verifyOTP(authyId,"1572813");
     }
 
     @Test
     public void startSMSVerification(){
-        twilio2faConnector.startVerification("9642723789","+91", "sms");
+        twilio2faConnector.startVerification("9876543123","+91", "sms");
     }
 
     @Test
     public void checkSMSVerification(){
-        boolean result = twilio2faConnector.checkVerification("9642723789", "+91", "8887");
+        boolean result = twilio2faConnector.checkVerification("9876543123", "+91", "8887");
         Assert.assertTrue("verification is not successful",result);
     }
 
     @Test
     public void startVoiceVerification(){
-        twilio2faConnector.startVerification("9642723789","+91", "call");
+        twilio2faConnector.startVerification("9876543123","+91", "call");
     }
 }
